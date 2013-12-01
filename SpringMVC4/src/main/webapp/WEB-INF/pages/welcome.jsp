@@ -8,7 +8,7 @@
 </head>
 <body>
 	<h2>Hello))</h2>
-	<h3>http://localhost:8080/SpringMVC4/ok</h3>
+	<h3>http://localhost:8080/SpringMVC4/ok/vot</h3>
 	<h4>${dateVisited}</h4>
 	
 </body>
