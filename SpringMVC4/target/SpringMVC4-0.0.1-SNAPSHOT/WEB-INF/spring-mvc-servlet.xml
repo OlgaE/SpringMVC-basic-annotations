@@ -16,8 +16,8 @@
 				<property name="prefix" value="/WEB-INF/pages/"/> 
 				<property name="suffix" value=".jsp"/>
 	</bean>
-	<!-- <bean name="/ok/autowire.htm" class="com.demo.controllers.SpringMvcController">
-		<property name="message" value="Hello World)"></property>
-	</bean> -->
+	<bean class="com.demo.datacontrollers.ControllerWithData">
+		<property name="message" value="This message was created in Spring bean (in spring-mvc-servlet.xml file))."></property>
+	</bean>
 
 </beans>

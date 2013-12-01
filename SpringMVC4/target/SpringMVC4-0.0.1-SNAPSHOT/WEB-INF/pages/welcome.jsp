@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Welcome page</title>
 </head>
 <body>
 	<h2>Hello))</h2>
@@ -12,6 +12,9 @@
 	<h4><a href="hellopage.htm">hellopage.htm</a></h4>
 	<h4><a href="to-new-page">Click here</a></h4>
 	<h4><a href="to-showdate-page">Show the time</a></h4>
+	
+	<h2>Using controller "ControllerWIthData.java":</h2>
+	<h4><a href="to-data-page">hellopage.htm</a></h4>
 	
 </body>
 </html>

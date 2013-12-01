@@ -7,6 +7,7 @@
 <title>Another example</title>
 </head>
 <body>
-	<h3> Hello from hellopage) </h3>
+	<h3> Using controller "ControllerWithData.java": </h3>
+	Message is ${key}
 </body>
 </html>

@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Simple example</title>
 </head>
 <body>
 	<h2>Hello)) This is another page, with no "model" object.</h2>

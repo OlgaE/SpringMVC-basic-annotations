@@ -30,9 +30,6 @@ public class SpringMvcController {
 	@RequestMapping(value = "/to-showdate-page", method = RequestMethod.GET)
 	public String welcome(Locale locale, Model model) {
 
-		// Date date = new Date();
-		// model.addAttribute("dateVisited", date);
-
 		Date date = new Date();
 		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG,
 				DateFormat.LONG, locale);
