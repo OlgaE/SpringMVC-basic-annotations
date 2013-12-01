@@ -8,16 +8,24 @@
 
 	<context:annotation-config/>
 	<context:component-scan base-package = "com.demo.controllers"/>
- 
+	
 	<bean class = "org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping"/> 
-	<bean class = "org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter"/> 
+	<bean class = "org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter"/>
+	 
 	<bean name="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver"> 
 				<property name="viewClass" value="org.springframework.web.servlet.view.JstlView"/> 
 				<property name="prefix" value="/WEB-INF/pages/"/> 
 				<property name="suffix" value=".jsp"/>
 	</bean>
+	
+	<!-- Project specific settings: -->
 	<bean class="com.demo.datacontrollers.ControllerWithData">
 		<property name="message" value="This message was created in Spring bean (in spring-mvc-servlet.xml file))."></property>
 	</bean>
-
+	<bean id="person" class="com.demo.model.Person">
+		<property name = "name" value="tom" />
+	</bean>
+	<bean id="person2" class="com.demo.model.Person">
+		<property name = "name" value="Jack" />
+	</bean>
 </beans>

@@ -19,5 +19,7 @@
 	<bean class="com.demo.datacontrollers.ControllerWithData">
 		<property name="message" value="This message was created in Spring bean (in spring-mvc-servlet.xml file))."></property>
 	</bean>
-
+	<bean id="person" class="com.demo.model.Person">
+		<property name = "name" value="tom" />
+	</bean>
 </beans>

@@ -8,6 +8,7 @@
 </head>
 <body>
 	<h3> Using controller "ControllerWithData.java": </h3>
-	Message is " ${key} ".
+	The name is " ${key} ". <br>
+	And the second name is ${key2}.
 </body>
 </html>

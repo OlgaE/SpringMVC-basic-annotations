@@ -15,6 +15,7 @@
 	
 	<h2>Using controller "ControllerWithData.java":</h2>
 	<h4><a href="to-data-page">controller with data</a></h4>
+	<h4><a href="to-name-page">show name</a></h4>
 	
 </body>
 </html>

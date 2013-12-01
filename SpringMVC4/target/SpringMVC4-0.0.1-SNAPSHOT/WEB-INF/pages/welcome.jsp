@@ -13,8 +13,9 @@
 	<h4><a href="to-new-page">Click here</a></h4>
 	<h4><a href="to-showdate-page">Show the time</a></h4>
 	
-	<h2>Using controller "ControllerWIthData.java":</h2>
-	<h4><a href="to-data-page">hellopage.htm</a></h4>
+	<h2>Using controller "ControllerWithData.java":</h2>
+	<h4><a href="to-data-page">controller with data</a></h4>
+	<h4><a href="to-name-page">show name</a></h4>
 	
 </body>
 </html>
