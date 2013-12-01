@@ -7,8 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h2>Hello)) This is another page, with no "model" object.</h2>
-	<h3>http://localhost:8080/SpringMVC4/ok/home</h3>
+	<h2>The date is:</h2>
 	<h4>${dateVisited}</h4>
 	
 </body>

@@ -7,7 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-
-<!-- <a href="wellcome.htm">Click here</a> -->
+	<h3> Hello from hellopage) </h3>
 </body>
 </html>

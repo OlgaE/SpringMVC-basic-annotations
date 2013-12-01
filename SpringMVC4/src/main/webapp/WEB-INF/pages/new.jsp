@@ -7,11 +7,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h2>Hello))</h2>
-	<h3>http://localhost:8080/SpringMVC4/</h3>
-	<h4><a href="hellopage.htm">hellopage.htm</a></h4>
-	<h4><a href="to-new-page">Click here</a></h4>
-	<h4><a href="to-showdate-page">Show the time</a></h4>
+	<h2>Hello)) This is another page, with no "model" object.</h2>
+	<h3>http://localhost:8080/SpringMVC4/to-new-page</h3>
 	
 </body>
 </html>

@@ -7,8 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h2>Hello))</h2>
-	<h3>http://localhost:8080/SpringMVC4/ok</h3>
+	<h2>The date is:</h2>
 	<h4>${dateVisited}</h4>
 	
 </body>
