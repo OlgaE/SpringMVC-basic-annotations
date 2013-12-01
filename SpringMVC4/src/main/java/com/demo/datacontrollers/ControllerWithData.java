@@ -6,6 +6,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.demo.model.Person;
 
@@ -22,6 +23,10 @@ public class ControllerWithData {
 	
 	private String message;
 	
+	public void setPerson(Person person) {
+		this.person = person;
+	}
+
 	public String getMessage() {
 		return message;
 	}
@@ -29,6 +34,10 @@ public class ControllerWithData {
 	public void setMessage(String message) {
 		this.message = message;
 	}
+	
+	//
+	// These methods are "request handlers":
+	//
 	
 	// The result is a jsp page.
 	@RequestMapping(value = "/to-data-page", method = RequestMethod.GET)
@@ -44,5 +53,13 @@ public class ControllerWithData {
 		model.addAttribute("key", person.getName());
 		model.addAttribute("key2", person2.getName());
 		return "name";
+	}
+	
+	// The result is an object of class Person, and
+	// it is included in the HTTP response.
+	@RequestMapping(value = "/get-person", method = RequestMethod.GET, produces="application/json; charset=utf-8")
+	@ResponseBody
+	public Person getPerson() {
+		return person;
 	}
 }

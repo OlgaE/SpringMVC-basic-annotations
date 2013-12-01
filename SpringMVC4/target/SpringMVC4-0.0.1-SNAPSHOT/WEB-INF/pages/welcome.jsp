@@ -17,5 +17,8 @@
 	<h4><a href="to-data-page">controller with data</a></h4>
 	<h4><a href="to-name-page">show name</a></h4>
 	
+	<h2>Using @ResponseBody annotation:</h2>
+	<h4><a href="get-person">get an object of Person class</a></h4>
+	
 </body>
 </html>
