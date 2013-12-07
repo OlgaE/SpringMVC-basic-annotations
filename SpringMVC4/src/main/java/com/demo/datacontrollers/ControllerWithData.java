@@ -1,5 +1,7 @@
 package com.demo.datacontrollers;
 
+import javax.servlet.http.HttpServletRequest;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
@@ -61,5 +63,18 @@ public class ControllerWithData {
 	@ResponseBody
 	public Person getPerson() {
 		return person;
+	}
+	
+	@RequestMapping(value = "/to-ajaxtest-page", method = {RequestMethod.GET, RequestMethod.POST})
+	public String ajaxpage(){
+		return "ajaxpage";
+	}
+	
+	@RequestMapping(value = "/ajaxJsonRequest", method = {RequestMethod.GET, RequestMethod.POST})
+	public @ResponseBody String ajaxJsonRequest(HttpServletRequest request){
+		
+		String message = request.getParameter("message");
+		System.out.println("Testing..)");
+		return "Hello" + message;
 	}
 }

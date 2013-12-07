@@ -20,5 +20,7 @@
 	<h2>Using @ResponseBody annotation:</h2>
 	<h4><a href="get-person">get an object of Person class</a></h4>
 	
+	<h2>Testing Ajax:</h2>
+	<h4><a href="to-ajaxtest-page">ajax..</a></h4>
 </body>
 </html>
