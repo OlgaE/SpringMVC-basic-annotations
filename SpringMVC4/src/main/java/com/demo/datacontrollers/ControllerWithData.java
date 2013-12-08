@@ -65,16 +65,26 @@ public class ControllerWithData {
 		return person;
 	}
 	
-	@RequestMapping(value = "/to-ajaxtest-page", method = {RequestMethod.GET, RequestMethod.POST})
+	@RequestMapping(value = "/to-ajax-page", method = {RequestMethod.GET, RequestMethod.POST})
 	public String ajaxpage(){
-		return "ajaxpage";
+		return "ajax";
 	}
 	
 	@RequestMapping(value = "/ajaxJsonRequest", method = {RequestMethod.GET, RequestMethod.POST})
 	public @ResponseBody String ajaxJsonRequest(HttpServletRequest request){
 		
-		String message = request.getParameter("message");
+		String message2 = request.getParameter("message");
 		System.out.println("Testing..)");
-		return "Hello" + message;
+		return "Hello" + message2;
+	}
+	
+	@RequestMapping(value = "/to-json-page", method = RequestMethod.GET)
+	public String jsonpage(){
+		return "json";
+	}
+	
+	@RequestMapping(value = "/to-jslibrary-page", method = RequestMethod.GET)
+	public String jslibrary(){
+		return "jslibrary";
 	}
 }
