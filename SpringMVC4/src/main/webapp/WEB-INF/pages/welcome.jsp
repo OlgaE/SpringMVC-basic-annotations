@@ -17,11 +17,13 @@
 	<h4><a href="to-data-page">controller with data</a></h4>
 	<h4><a href="to-name-page">show name</a></h4>
 	
-	<h2>Using @ResponseBody annotation:</h2>
-	<h4><a href="get-person">get an object of Person class</a></h4>
+	<h2>Using @ResponseBody annotation:
+	<a href="get-person"><input type="button" value="get an object of Person class" /></a></h2>
 	
 	<h2>Testing Ajax:</h2>
-	<h4><a href="to-ajax-page">ajax..</a></h4>
+	<form action="http://localhost:8080/SpringMVC4/to-ajax-page" method="get">
+		<input type="submit" value="ajax.." />
+	</form>
 	
 	<h2>Testing JSON.parse:</h2>
 	<h4><a href="to-json-page">JSON..</a></h4>
