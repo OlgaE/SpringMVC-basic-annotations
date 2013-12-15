@@ -48,4 +48,9 @@ public class SpringMvcController {
 	public String handleRequest2() {
 		return "hellopage";
 	}
+	
+	@RequestMapping(value = "/jspractice.htm", method = RequestMethod.GET)
+	public String handleRequest3() {
+		return "jspractice";
+	}
 }

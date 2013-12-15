@@ -33,5 +33,8 @@
 	
 	<h2>Testing @Component annotation:</h2>
 	<h4><a href="to-name-page">show name</a></h4>
+	
+	<h2>Practicing JavaScript:
+	<a href="jspractice.htm"><input type="button" value="javascript here" /></a></h2>
 </body>
 </html>
