@@ -9,6 +9,9 @@
 <body>
 	<h3> Using controller "ControllerWithData.java": </h3>
 	The name is " ${key} ". <br>
-	And the second name is ${key2}.
+	And the second name is ${key2}. <br>
+	
+	The default address is: ${key3 }. <br>
+	
 </body>
 </html>

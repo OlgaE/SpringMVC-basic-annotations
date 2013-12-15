@@ -28,5 +28,8 @@
 	
 	<h2>Testing javascript library:</h2>
 	<h4><a href="to-jslibrary-page">library</a></h4>
+	
+	<h2>Testing @Component annotation:</h2>
+	<h4><a href="to-name-page">show name</a></h4>
 </body>
 </html>

@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.demo.model.Person;
+import com.demo.model.addresses.Address;
 
 @Controller
 public class ControllerWithData {
@@ -22,6 +23,9 @@ public class ControllerWithData {
 	@Autowired
 	@Qualifier("person2")
 	private Person person2;
+	
+	@Autowired
+	private Address address;
 	
 	private String message;
 	
@@ -54,6 +58,7 @@ public class ControllerWithData {
 
 		model.addAttribute("key", person.getName());
 		model.addAttribute("key2", person2.getName());
+		model.addAttribute("key3", address.getAddress());
 		return "name";
 	}
 	

@@ -29,14 +29,14 @@
 		</script>
 	</head>
 	
-<body>
-	<h2>Hello)) Testing JSON parsing here..</h2>
-
-	<input type="button" value="JSON parsing" onclick="start()" /> 
-	<br>
-	<input type="button" value="JSON parsing (from another page)" onclick="start1()" />
-	<br>
-	<span id="jsonMessage"></span>
-
-</body>
+	<body>
+		<h2>Hello)) Testing JSON parsing here..</h2>
+	
+		<input type="button" value="JSON parsing" onclick="start()" /> 
+		<br>
+		<input type="button" value="JSON parsing (from another page)" onclick="start1()" />
+		<br>
+		<span id="jsonMessage"></span>
+	
+	</body>
 </html>
