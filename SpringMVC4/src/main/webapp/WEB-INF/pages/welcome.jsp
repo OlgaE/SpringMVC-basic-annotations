@@ -36,5 +36,8 @@
 	
 	<h2>Practicing JavaScript:
 	<a href="jspractice.htm"><input type="button" value="javascript here" /></a></h2>
+	
+	<h2>Practicing forms JavaScript:
+	<a href="to-form-page"><input type="button" value="javascript with forms:" /></a></h2>
 </body>
 </html>

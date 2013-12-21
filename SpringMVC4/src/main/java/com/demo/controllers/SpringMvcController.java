@@ -43,6 +43,11 @@ public class SpringMvcController {
 	public String handleRequest() {
 		return "new";
 	}
+	
+	@RequestMapping(value = "/to-form-page", method = RequestMethod.GET)
+	public String handleRequest4() {
+		return "form";
+	}
 
 	@RequestMapping(value = "/hellopage.htm", method = RequestMethod.GET)
 	public String handleRequest2() {
