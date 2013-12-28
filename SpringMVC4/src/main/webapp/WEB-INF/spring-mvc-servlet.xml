@@ -25,6 +25,10 @@
 		<property name="suffix" value=".jsp" />
 	</bean>
 
+	<mvc:interceptors>  
+	     <bean class="com.demo.interceptors.InterceptorTest"></bean>  
+	</mvc:interceptors>
+
 	<!-- Project specific settings: -->
 	<bean class="com.demo.datacontrollers.ControllerWithData">
 		<property name="message"
