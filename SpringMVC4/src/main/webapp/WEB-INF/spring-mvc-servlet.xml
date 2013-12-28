@@ -26,7 +26,12 @@
 	</bean>
 
 	<mvc:interceptors>  
-	     <bean class="com.demo.interceptors.InterceptorTest"></bean>  
+	     <bean class="com.demo.interceptors.InterceptorTest"></bean> 
+	     
+	    <mvc:interceptor>
+			<mvc:mapping path="/hellopage.htm" />
+				<bean class="com.demo.interceptors.InterceptorTest2" />
+		</mvc:interceptor> 
 	</mvc:interceptors>
 
 	<!-- Project specific settings: -->
