@@ -7,6 +7,7 @@ import java.util.Locale;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import org.apache.log4j.Logger;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -17,6 +18,8 @@ import org.springframework.web.servlet.ModelAndView;
 //@RequestMapping("/ok")
 public class SpringMvcController {
 
+	static Logger log = Logger.getLogger(SpringMvcController.class.getName());
+	
 	private String message;
 
 	public String getMessage() {
@@ -30,6 +33,8 @@ public class SpringMvcController {
 	@RequestMapping(value = "/to-showdate-page", method = RequestMethod.GET)
 	public String welcome(Locale locale, Model model) {
 
+		log.info("Testing logging..");
+		
 		Date date = new Date();
 		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG,
 				DateFormat.LONG, locale);
